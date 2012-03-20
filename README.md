@@ -29,5 +29,7 @@ the themes directory and clone the repository:
     git clone git://github.com:excid3/excid3-wordpress-theme.git minimal-guy
 
 ## Settings
-Tagline is set though the Admin -> General settings page
-Main logo image is the gravatar image for the admin email account
+* Tagline is set though the Admin -> General settings page
+* Main logo image is the gravatar image for the admin email account
+* Author Bio controls paragraph under post
+* Requires http://www.woothemes.com/support/wootumblog/
