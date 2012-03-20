@@ -2,7 +2,7 @@
 Theme Name: Minimal Guy
 Theme URI: http://guyro.com/minimal-wordpress-theme/
 Description: A very clean minimalist theme, search, archives or other features.
-Author: Guy Ro, Chris Oliver
+Author: Guy Ro, Chris Oliver, Travis McCrea
 Author URI: http://guyro.com
 Tags: white, two-columns, fixed-width
 Version: 1.0
@@ -109,3 +109,6 @@ img.wp-smiley {border:none; margin:0; padding:0; float:none;}
 #footer p{padding:14px 0;margin: 0; color: #666; text-align:center;}
 #footer a{color: #666;text-decoration: none;}
 #footer a:hover{color: #000000;text-decoration: none;}
+
+/*Adding Tumblog Support*/
+.post .post-icon a  { top: 30px !important; right: 20px !important; }

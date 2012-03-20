@@ -26,7 +26,7 @@
 
 
 <div id="header">
-<a href="<?php echo get_option('home'); ?>/"><img class="avatar" src="http://en.gravatar.com/userimage/2084217/6908dae337531062f4fafb4d198addc2.jpg?size=100" /></a>
+	<a href="<?php echo get_option('home'); ?>/"><?php echo get_avatar(get_bloginfo( admin_email )); ?></a>
 		<h2><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h2>
-		<div class="about">I'm a Rails developer at <a href="http://theablefew.com">The Able Few</a> in St Louis.</div>
-		</div>
+		<div class="about"><?php bloginfo('description'); ?></div>
+</div>

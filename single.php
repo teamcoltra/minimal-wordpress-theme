@@ -12,18 +12,18 @@
 
 		<div class="post" id="post-<?php the_ID(); ?>">
 
-			<h1><?php the_title(); ?></h1>
+			<?php woo_tumblog_the_title($class= "title", $icon = true, $before = "", $after = "", $return = false, $outer_element = "h1") ?>
 <div><small style="color:#888; margin-left:3px;">Posted <?php the_time('F j, Y') ?> under <?php the_category(', ') ?></small></div>
 
 			<div class="entry">
+				<?php woo_tumblog_content($return = false); ?>
 				<?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
 			</div>
 		</div>
 
 <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
-<p>If you liked this post, <a href="http://twitter.com/excid3">follow me on Twitter</a> or <a href="http://feeds.feedburner.com/excid3">subscribe to my RSS feed</a>.</p>
-
+<p><?php the_author_description(); ?>  </p>
 <?php edit_post_link('Edit', '<p>', '</p>'); ?>
 
 

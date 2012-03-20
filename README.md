@@ -27,3 +27,7 @@ the themes directory and clone the repository:
 
     cd /WORDPRESS DIRECTORY/wp-content/themes
     git clone git://github.com:excid3/excid3-wordpress-theme.git minimal-guy
+
+## Settings
+Tagline is set though the Admin -> General settings page
+Main logo image is the gravatar image for the admin email account

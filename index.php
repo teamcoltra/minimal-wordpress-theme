@@ -7,10 +7,11 @@
 		<?php while (have_posts()) : the_post(); ?>
 
 			<div class="post" id="post-<?php the_ID(); ?>">
-				<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+				<?php woo_tumblog_the_title($class= "title", $icon = true, $before = "", $after = "", $return = false, $outer_element = "h1") ?>
 <div><small style="color:#888; margin-left:3px;">Posted <?php the_time('F j, Y') ?> under <?php the_category(', ') ?></small></div>
 
 				<div class="entry">
+					<?php woo_tumblog_content($return = false); ?>
 					<?php the_content('Read more &raquo;'); ?>
 				</div>
 
