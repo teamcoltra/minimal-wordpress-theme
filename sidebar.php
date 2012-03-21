@@ -10,7 +10,7 @@ if ( function_exists('register_sidebar') )
     ));
 ?>
 <?php if ( !function_exists('dynamic_sidebar')
-        || !dynamic_sidebar() ) : ?>
+        || !dynamic_sidebar(1) ) : ?>
 <?php endif; ?>
 </ul>
 </div>
