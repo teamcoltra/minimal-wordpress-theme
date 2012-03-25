@@ -23,7 +23,7 @@
 
 <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
-<p><?php the_author_description(); ?>  </p>
+<p id="author"><?php the_author_description(); ?>  </p>
 <?php edit_post_link('Edit', '<p>', '</p>'); ?>
 
 

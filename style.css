@@ -25,6 +25,9 @@ body {
 pre {
   padding: 10px;
 }
+br{display:block;width:100%;height:1px;}
+
+hr{color:#c00;background-color:#c00;height:1px;border:none;}
 
 img{border:none;}
 img a{border:none;}
@@ -34,6 +37,7 @@ img {
     margin: 15px;
     padding: 5px;
 }
+
 img:hover {
     border: 1px solid #CCC;
 
@@ -104,11 +108,54 @@ img.wp-smiley {border:none; margin:0; padding:0; float:none;}
 #sidebar h4{margin:0; font-weight: normal; font-size: 8 pt; color: #999;}
 #sidebar img {margin: 4px;}
 #sidebar .icons {overflow:hidden;}
+#sidebar img {
+    border: 0px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    opacity: 0.5;
+}
+
+#sidebar img:hover {
+    border: 0px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    opacity: 1;
+}
+
+#author {
+color: white;
+background-color: #08C;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-top: 2px;
+margin-bottom: 2px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding-right: 12px;
+padding-left: 12px;
+margin-right: 2px;
+line-height: 14px;
+clear:both;
+}
+#author a{
+color:#99FFFF;
+}
+.al2fb_likers {
+float:right !important;
+display:inline !important;
+margin-top:-30px !important;
+}
 
 #footer {background:#fff; clear: both;	width: 100%;}
 #footer p{padding:14px 0;margin: 0; color: #666; text-align:center;}
 #footer a{color: #666;text-decoration: none;}
 #footer a:hover{color: #000000;text-decoration: none;}
+#footer ul {margin:0px; padding:0;}
+#footer ul li {margin: 5px 0; padding: 0; list-style-type: none; font-weight: normal; line-height:14px;}
+#footer ul li a { margin: 8px 8px 8px 0; }
 
 /*Adding Tumblog Support*/
 .post .post-icon a  { top: 20px !important; right: -50px !important; }
