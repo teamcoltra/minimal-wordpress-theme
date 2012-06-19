@@ -1,6 +1,6 @@
-# excid3.com Wordpress Theme
+# TravisMcCrea.com Minimal Wordpress Theme
 
-This is my blog's wordpress theme that I've modified from the Minimal
+This is my blog's wordpress theme that I've modified from excid3 (excid3.com) who modified the Minimal
 Guy theme by Guy Ro.
 
 The original website and theme seem to be unavailable on the internet so
@@ -26,4 +26,4 @@ Alternatively if you have git on your server you can ssh in, navigate to
 the themes directory and clone the repository:
 
     cd /WORDPRESS DIRECTORY/wp-content/themes
-    git clone git://github.com:excid3/excid3-wordpress-theme.git minimal-guy
+    git clone git://github.com:teamcoltra/minimal-wordpress-theme.git minimal-guy
