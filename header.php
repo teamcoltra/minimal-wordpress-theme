@@ -29,4 +29,5 @@
 	<a href="<?php echo get_option('home'); ?>/"><?php echo get_avatar(get_bloginfo( admin_email )); ?></a>
 		<h2><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h2>
 		<div class="about"><?php bloginfo('description'); ?></div>
+		<div class="headlinks"><?php wp_nav_menu( array('menu' => 'headlinks' )); ?></div>
 </div>

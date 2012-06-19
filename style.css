@@ -159,3 +159,25 @@ margin-top:-30px !important;
 
 /*Adding Tumblog Support*/
 .post .post-icon a  { top: 20px !important; right: -50px !important; }
+.headlinks {
+padding-top:10px;
+text-align:right;
+}
+.headlinks ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	} 
+
+.headlinks ul li {
+	margin-left: 0;
+	margin-bottom: 0;
+	padding: 2px 15px 5px;
+	list-style: none;
+	display: inline;
+	}
+.search {font-size:0.7em; font-weight:200;margin-top: 30px;}
+ul#archives {margin:0; padding:0; list-style-type:none;}
+ul#archives li {font-size:1.1em; font-weight:200;}
+ul#archives li.archive-year {color:#888; border-bottom:1px solid #bbb; font-weight:normal;}
+ul#archives span.archive-date {color:#888; display:inline-block; font-size:0.8em; font-weight:normal; margin-right:15px; text-align:right; text-transform:uppercase; width: 60px;}
